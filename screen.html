@@ -1,0 +1,216 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+
+        .seat {
+            float: left;
+            display: block;
+            margin: 5px;
+            background: #4CAF50;
+            width: 50px;
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        .seat-select {
+            display: none;
+        }
+
+        .seat-select:checked + .seat {
+            background: #F44336;
+        }
+
+        .panel-body {
+            padding: 15px;
+            width: 100%;
+            max-width: 60%;
+            margin: 0 auto;
+        }
+
+        .center {
+            display: flex;
+            margin: 0 auto;
+            text-align: center
+        }
+
+        .seat-wrap {
+            clear: both;
+            margin: 0 auto;
+        }
+
+        .panel-wrap {
+            align-self: center;
+            display: flex;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .btn-wrap {
+            clear: both;
+            padding-top: 20px;
+        }
+		@media (min-width:1025px){
+			.panel-body {
+            width: 100%;
+            max-width: 43%;
+            margin: 0 auto;
+        }
+		}
+
+    </style>
+</head>
+
+
+<body>
+<div class="center">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="panel">
+
+            <h1 class="panel-title col-md-12 col-xs-12" style="color:#000;font-size: 20px;margin-top:20px"
+                align="center">
+                Please Select A Seat</h1>
+
+
+            <div class="col-md-12 col-sm-12 col-xs-12 panel-wrap">
+                <div class="panel-body" align="center">
+
+                    <div class="seat-wrap col-md-12">
+                        <input id="seat-1A" class="seat-select" type="checkbox" value="1" name="seat[]">
+                        <label for="seat-1A" class="seat">1A</label>
+                        <input id="seat-2A" class="seat-select" type="checkbox" value="2" name="seat[]">
+                        <label for="seat-2A" class="seat">2A</label>
+                        <input id="seat-3A" class="seat-select" type="checkbox" value="3" name="seat[]">
+                        <label for="seat-3A" class="seat">3A</label>
+                        <input id="seat-4A" class="seat-select" type="checkbox" value="4" name="seat[]">
+                        <label for="seat-4A" class="seat">4A</label>
+
+                        <input id="seat-5A" class="seat-select" type="checkbox" value="5" name="seat[]">
+                        <label for="seat-5A" class="seat">5A</label>
+                        <input id="seat-6A" class="seat-select" type="checkbox" value="6" name="seat[]">
+                        <label for="seat-6A" class="seat">6A</label>
+                        <input id="seat-7A" class="seat-select" type="checkbox" value="7" name="seat[]">
+                        <label for="seat-7A" class="seat">7A</label>
+                        <input id="seat-8A" class="seat-select" type="checkbox" value="8" name="seat[]">
+                        <label for="seat-8A" class="seat">8A</label>
+                    </div>
+
+                    <div class="seat-wrap col-md-12">
+                        <input id="seat-1B" class="seat-select" type="checkbox" value="1" name="seat[]">
+                        <label for="seat-1B" class="seat">1B</label>
+                        <input id="seat-2B" class="seat-select" type="checkbox" value="2" name="seat[]">
+                        <label for="seat-2B" class="seat">2B</label>
+                        <input id="seat-3B" class="seat-select" type="checkbox" value="3" name="seat[]">
+                        <label for="seat-3B" class="seat">3B</label>
+                        <input id="seat-4B" class="seat-select" type="checkbox" value="4" name="seat[]">
+                        <label for="seat-4B" class="seat">4B</label>
+
+                        <input id="seat-5B" class="seat-select" type="checkbox" value="5" name="seat[]">
+                        <label for="seat-5B" class="seat">5B</label>
+                        <input id="seat-6B" class="seat-select" type="checkbox" value="6" name="seat[]">
+                        <label for="seat-6B" class="seat">6B</label>
+                        <input id="seat-7B" class="seat-select" type="checkbox" value="7" name="seat[]">
+                        <label for="seat-7B" class="seat">7B</label>
+                        <input id="seat-8B" class="seat-select" type="checkbox" value="8" name="seat[]">
+                        <label for="seat-8B" class="seat">8B</label>
+                    </div>
+
+                    <div class="seat-wrap col-md-12">
+                        <input id="seat-1C" class="seat-select" type="checkbox" value="1" name="seat[]">
+                        <label for="seat-1C" class="seat">1C</label>
+                        <input id="seat-2C" class="seat-select" type="checkbox" value="2" name="seat[]">
+                        <label for="seat-2C" class="seat">2C</label>
+                        <input id="seat-3C" class="seat-select" type="checkbox" value="3" name="seat[]">
+                        <label for="seat-3C" class="seat">3C</label>
+                        <input id="seat-4C" class="seat-select" type="checkbox" value="4" name="seat[]">
+                        <label for="seat-4C" class="seat">4C</label>
+
+                        <input id="seat-5C" class="seat-select" type="checkbox" value="5" name="seat[]">
+                        <label for="seat-5C" class="seat">5C</label>
+                        <input id="seat-6C" class="seat-select" type="checkbox" value="6" name="seat[]">
+                        <label for="seat-6C" class="seat">6C</label>
+                        <input id="seat-7C" class="seat-select" type="checkbox" value="7" name="seat[]">
+                        <label for="seat-7C" class="seat">7C</label>
+                        <input id="seat-8C" class="seat-select" type="checkbox" value="8" name="seat[]">
+                        <label for="seat-8C" class="seat">8C</label>
+                    </div>
+
+                    <div class="seat-wrap col-md-12">
+                        <input id="seat-1D" class="seat-select" type="checkbox" value="1" name="seat[]">
+                        <label for="seat-1D" class="seat">1D</label>
+                        <input id="seat-2D" class="seat-select" type="checkbox" value="2" name="seat[]">
+                        <label for="seat-2D" class="seat">2D</label>
+                        <input id="seat-3D" class="seat-select" type="checkbox" value="3" name="seat[]">
+                        <label for="seat-3D" class="seat">3D</label>
+                        <input id="seat-4D" class="seat-select" type="checkbox" value="4" name="seat[]">
+                        <label for="seat-4D" class="seat">4D</label>
+
+                        <input id="seat-5D" class="seat-select" type="checkbox" value="5" name="seat[]">
+                        <label for="seat-5D" class="seat">5D</label>
+                        <input id="seat-6D" class="seat-select" type="checkbox" value="6" name="seat[]">
+                        <label for="seat-6D" class="seat">6D</label>
+                        <input id="seat-7D" class="seat-select" type="checkbox" value="7" name="seat[]">
+                        <label for="seat-7D" class="seat">7D</label>
+                        <input id="seat-8D" class="seat-select" type="checkbox" value="8" name="seat[]">
+                        <label for="seat-8D" class="seat">8D</label>
+                    </div>
+
+                    <div class="seat-wrap col-md-12">
+                        <input id="seat-1E" class="seat-select" type="checkbox" value="1" name="seat[]">
+                        <label for="seat-1E" class="seat">1E</label>
+                        <input id="seat-2E" class="seat-select" type="checkbox" value="2" name="seat[]">
+                        <label for="seat-2E" class="seat">2E</label>
+                        <input id="seat-3E" class="seat-select" type="checkbox" value="3" name="seat[]">
+                        <label for="seat-3E" class="seat">3E</label>
+                        <input id="seat-4E" class="seat-select" type="checkbox" value="4" name="seat[]">
+                        <label for="seat-4E" class="seat">4E</label>
+
+                        <input id="seat-5E" class="seat-select" type="checkbox" value="5" name="seat[]">
+                        <label for="seat-5E" class="seat">5E</label>
+                        <input id="seat-6E" class="seat-select" type="checkbox" value="6" name="seat[]">
+                        <label for="seat-6E" class="seat">6E</label>
+                        <input id="seat-7E" class="seat-select" type="checkbox" value="7" name="seat[]">
+                        <label for="seat-7E" class="seat">7E</label>
+                        <input id="seat-8E" class="seat-select" type="checkbox" value="8" name="seat[]">
+                        <label for="seat-8E" class="seat">8E</label>
+                    </div>
+
+                    <div class="seat-wrap col-md-12">
+                        <input id="seat-1F" class="seat-select" type="checkbox" value="1" name="seat[]">
+                        <label for="seat-1F" class="seat">1F</label>
+                        <input id="seat-2F" class="seat-select" type="checkbox" value="2" name="seat[]">
+                        <label for="seat-2F" class="seat">2F</label>
+                        <input id="seat-3F" class="seat-select" type="checkbox" value="3" name="seat[]">
+                        <label for="seat-3F" class="seat">3F</label>
+                        <input id="seat-4F" class="seat-select" type="checkbox" value="4" name="seat[]">
+                        <label for="seat-4F" class="seat">4F</label>
+
+                        <input id="seat-5F" class="seat-select" type="checkbox" value="5" name="seat[]">
+                        <label for="seat-5F" class="seat">5F</label>
+                        <input id="seat-6F" class="seat-select" type="checkbox" value="6" name="seat[]">
+                        <label for="seat-6F" class="seat">6F</label>
+                        <input id="seat-7F" class="seat-select" type="checkbox" value="7" name="seat[]">
+                        <label for="seat-7F" class="seat">7F</label>
+                        <input id="seat-8F" class="seat-select" type="checkbox" value="8" name="seat[]">
+                        <label for="seat-8F" class="seat">8F</label>
+
+                    </div>
+
+
+                    <div class="btn-wrap" align="center">
+                        <div class="progress-button submit" style="padding: 0;margin: 15px;">
+                            <input type="submit" name="submit" value="Submit">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
